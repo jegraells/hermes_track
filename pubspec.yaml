@@ -1,0 +1,30 @@
+name: hermes_track
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  # Other dependencies here
+  # Make sure that versions of packages are compatible
+  provider: ^6.0.1 # example version
+  # Add other dependencies below
+  # You may want to update your packages if they are outdated
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  table_calendar: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/placeholder.png
+    
+environment:
+  sdk: '^3.5.0'
+
+version: 1.0.0+1
+
